@@ -34,8 +34,42 @@ span{
 }
 
 p{
+    height: 10px;
+    width: 900px;
     font-size: 24px;
     font-family: Inter;
     padding: 0 60px;
     color: white;
+}
+
+.btn{
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    border-color: black;
+    margin-top: 60px;
+    margin-left: 60px;
+    color: white;
+    background-color: red;
+}
+
+.esquerda{
+    width: 500px;
+    height: 500px;   
+}
+
+.direita{
+    height: 500px;
+    width: 500px;
+}
+
+.homem{
+    height: 600px;
+    width: 600px;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.corpo{
+    display: flex;
 }
