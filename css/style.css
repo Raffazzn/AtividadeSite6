@@ -1,0 +1,41 @@
+body{
+    background-color: #393737;
+}   
+
+header{
+    padding-top: 35px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 0 60px;
+}
+.menu-bar{
+    display: flex;
+    list-style: none;
+    font-family: Inter;
+    font-size: 24px;
+    column-gap: 50px;
+    color: #fff; 
+}
+
+.titulo{
+    column-gap: 15px;
+    font-size: 60px;
+    font-family: Inter;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 150px 0 0 60px;
+}
+
+span{
+    color: red;
+}
+
+p{
+    font-size: 24px;
+    font-family: Inter;
+    padding: 0 60px;
+    color: white;
+}
